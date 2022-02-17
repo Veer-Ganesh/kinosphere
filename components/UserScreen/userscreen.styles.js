@@ -63,7 +63,6 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 0.5 },
     shadowOpacity: 0.8,
     shadowRadius: 1,
-    elevation: 10,
   },
   imageStyle: {
     resizeMode: "cover",

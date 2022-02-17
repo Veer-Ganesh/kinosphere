@@ -1,8 +1,8 @@
+import React, { useCallback, useEffect, useState } from "react";
 import * as eva from "@eva-design/eva";
 import {
   ApplicationProvider,
   Layout,
-  Text,
   IconRegistry,
 } from "@ui-kitten/components";
 import { NavigationContainer } from "@react-navigation/native";

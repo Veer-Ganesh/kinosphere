@@ -11,7 +11,7 @@ import styles from "./userscreen.styles";
 import app_constants from "../../constants/app_constants";
 
 //SUB-COMPONENTS
-import AvatarComp from "./subComponents/AvatarViewComp";
+import AvatarComp from "./subComponents/AvatarComp";
 import UserDetailComp from "./subComponents/UserDetailComp";
 import CategoryTagComp from "./subComponents/CategoryTagComp";
 import ImageViewComp from "./subComponents/ImageViewComp";
