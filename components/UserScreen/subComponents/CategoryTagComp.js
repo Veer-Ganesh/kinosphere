@@ -69,7 +69,7 @@ const Category = ({ selectedIndex, tagList, setTagList, setSelectedIndex }) => {
 
   const displayValue = app_constants.CATEGORY_LIST_DATA[selectedIndex - 1];
   return (
-    <View style={styles.categoryViewHolder}>
+    <View style={{ ...styles.categoryViewHolder }}>
       <Select
         selectedIndex={selectedIndex}
         placeholder={app_constants.CATEGORY_PLACEHOLDER_TEXT}

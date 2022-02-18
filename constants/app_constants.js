@@ -4,7 +4,7 @@ const app_constants = {
   TEXT_COLOR: "#ffffff",
   USERNAME: "Veerganesh",
   DESCRIPTION: `This is a user description , which includes all user bio / details ! for ex : this is me and i am happy :). Checkout my profile for some cool updates ..!`,
-  AVATAR_PLACEHOLDER: "Add Picture",
+  AVATAR_PLACEHOLDER: "Add Pic",
   CATEGORY_PLACEHOLDER: "No Category Added",
   TAG_LIST_DATA: ["Actor", "Singer", "Director", "Photographer", "Editor"],
   CATEGORY_LIST_DATA: ["Graphics", "Artist", "Dance"],

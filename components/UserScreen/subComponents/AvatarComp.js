@@ -2,7 +2,11 @@
 import React from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import Icon from "react-native-vector-icons/Feather";
-import { widthPercentageToDP as wp } from "react-native-responsive-screen";
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from "react-native-responsive-screen";
+import { Avatar as Ava } from "react-native-paper";
 
 //CONSTANTS
 import styles from "../userscreen.styles";
@@ -16,15 +20,7 @@ const Avatar = ({ pickImage, profilePic }) => {
         onPress={() => pickImage("Profile")}
         style={styles.avatarPlaceholder}
       >
-        <Icon
-          name={"plus"}
-          size={wp(5)}
-          style={{ marginBottom: wp(1) }}
-          color={app_constants.TEXT_COLOR}
-        />
-        <Text style={styles.avatarTextStyle}>
-          {app_constants.AVATAR_PLACEHOLDER}
-        </Text>
+        <Ava.Text size={hp(11)} label={app_constants.USERNAME[0]} />
       </TouchableOpacity>
     );
   };
